@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #282005;
+}
+.div-header{
+    background-color: rgb(228, 207, 207);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+}
+.nav-header a{
+    margin: 20px;
+    text-decoration: none;
+    background-color: rgb(157, 151, 65);
+    border-radius: 30%;
+    padding: 10px;
+    color: black;
+    font-weight:bold;
+    border: 1px solid black;
+}
+.nav-header a:hover{
+    background-color: rgb(12, 128, 186);
+    padding: 17px;
+}
+
+.logo{
+    left: 95%;
+    position: fixed;
+   width: 50px;
+   bottom: 93.5%;
+   
+}
+.contaner{
+    position: relative;
+    margin:190px;
+    padding: 20px;
+    direction:rtl;
+background-color: rgb(58, 55, 15);
+font-size:17px;
+font-weight:bold;
+line-height: 30px;
+color: white;
+border-radius: 20px;
+}
+.contaner h1{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+display: flex;
+justify-content: center;
+background-color: rgb(228, 207, 207);
+align-items: center;
+height: 85px;
+}
+
+footer img{
+    width: 43%;
+
+}
+footer img:hover{
+    transform: scale(1.2);
+}
+.sec-pic img{
+    width: 30%;
+    
+}
+.sec-pic{
+    position: fixed;
+ bottom: 92px;
+ right: -196px;
+}
+.sec2-pic img{
+    width: 22%;
+     border-radius: 20px;
+}
+.sec2-pic{
+    position: fixed;
+ bottom: 395px;
+ left: -302px;
+}
